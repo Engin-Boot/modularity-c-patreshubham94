@@ -2,19 +2,19 @@ using System;
 using System.Diagnostics;
 using System.Drawing;
 namespace TelCo.ColorCoder{
-  class GetMethod2 {
+   partial class Program {
         /// <summary>
         /// Given the two colors the function returns the pair number corresponding to them
         /// </summary>
         /// <param name="pair">Color pair with major and minor color</param>
         /// <returns></returns>
-        internal static int GetPairNumberFromColor(Part3.ColorPair pair)
+        private  static int GetPairNumberFromColor(ColorPair pair)
         {
             // Find the major color in the array and get the index
             int majorIndex = -1;
-            for (int i = 0; i < Part3.colorMapMajor.Length; i++)
+            for (int i = 0; i < colorMapMajor.Length; i++)
             {
-                if (Part3.colorMapMajor[i] == pair.majorColor)
+                if (colorMapMajor[i] == pair.majorColor)
                 {
                     majorIndex = i;
                     break;
@@ -23,9 +23,9 @@ namespace TelCo.ColorCoder{
 
             // Find the minor color in the array and get the index
             int minorIndex = -1;
-            for (int i = 0; i < Part3.colorMapMinor.Length; i++)
+            for (int i = 0; i < colorMapMinor.Length; i++)
             {
-                if (Part3.colorMapMinor[i] == pair.minorColor)
+                if (colorMapMinor[i] == pair.minorColor)
                 {
                     minorIndex = i;
                     break;
