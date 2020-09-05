@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Drawing;
 namespace TelCo.ColorCoder{
- class GetMethod1 {
+ class ColorPair {
         
         /// <summary>
         /// Given a pair number function returns the major and minor colors in that order
