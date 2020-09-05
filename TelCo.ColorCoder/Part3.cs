@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Drawing;
 namespace TelCo.ColorCoder {
-     class Program {
+     class Part3 {
         /// <summary>
         /// Array of Major colors
         /// </summary>
