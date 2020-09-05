@@ -4,7 +4,7 @@ using System.Drawing;
 
 namespace TelCo.ColorCoder
 {
-    internal class stringFunction
+    internal class StringFunction
     {
          public override string ToString()
         {
