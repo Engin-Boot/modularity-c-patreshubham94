@@ -2,15 +2,15 @@ using System;
 using System.Diagnostics;
 using System.Drawing;
 namespace TelCo.ColorCoder {
-    partial class Program {
+     class Program {
         /// <summary>
         /// Array of Major colors
         /// </summary>
-        private static Color[] colorMapMajor;
+        internal static Color[] colorMapMajor;
         /// <summary>
         /// Array of minor colors
         /// </summary>
-        private static Color[] colorMapMinor;
+        internal static Color[] colorMapMinor;
         /// <summary>
         /// data type defined to hold the two colors of clor pair
         /// </summary>
