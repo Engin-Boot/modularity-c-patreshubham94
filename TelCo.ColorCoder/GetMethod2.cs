@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Drawing;
 namespace TelCo.ColorCoder{
-  class GetPairFromColrMethod {
+  class GetMethod2 {
         /// <summary>
         /// Given the two colors the function returns the pair number corresponding to them
         /// </summary>
